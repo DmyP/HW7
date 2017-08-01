@@ -10,6 +10,7 @@ public class CreditHistory extends NamedEntity {
     private List<TakenCredit> takenCredits;
     private Integer clientId;
 
+
     public CreditHistory(Integer id) {
         super("credit history client No " + id);
         this.takenCredits = new ArrayList<>();

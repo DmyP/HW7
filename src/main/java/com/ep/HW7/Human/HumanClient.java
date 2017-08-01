@@ -19,6 +19,9 @@ public class HumanClient extends Human implements Client {
         this.clientOfBanks = new ArrayList<>();
     }
 
+    public void addBankToList(Bank bank) {
+        this.clientOfBanks.add(bank);
+    }
 
     @Override
     public void acceptCreditOffer(Credit credit) {

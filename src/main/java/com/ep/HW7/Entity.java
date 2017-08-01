@@ -3,7 +3,7 @@ package com.ep.HW7;
 import java.util.concurrent.atomic.AtomicInteger;
 
 abstract class Entity {
-    private AtomicInteger id;
+    private AtomicInteger id = new AtomicInteger();
 
     protected Entity() {
         if (id == null) {
